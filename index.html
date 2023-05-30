@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Examination Dashboard</title>
+  </head>
+  <body>
+     <!--Sidebar along with navbar-->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#"> <img src="sppu.png" width="50" height="50" 
+   alt="sppu">&nbsp&nbspSPPU </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"> </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
+    <li class="nav-item">
+    <a class="nav-link" href="#"> Home </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link nav-link-collapse" href="#" id="hasSubItems" data-toggle="collapse"
+    data-target="#collapseSubItems2" aria-controls="collapseSubItems2" aria-expanded="false"> 
+   Students </a>
+    <ul class="nav-second-level collapse" id="collapseSubItems2" data-parent="#navAccordion">
+    <li class="nav-item">
+    <a class="nav-link" href="form.html">
+    <span class="nav-link-text">Student Form</span>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">
+    <span class="nav-link-text">Result</span>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">
+    <span class="nav-link-text">Timetables and Schedules</span>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">
+    <span class="nav-link-text">Exam Forms Online</span>
+    </a>
+    </li>
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link nav-link-collapse" href="#" id="hasSubItems" data-toggle="collapse"
+    data-target="#collapseSubItems4" aria-controls="collapseSubItems4" aria-expanded="false"> 
+   Colleges</a>
+    <ul class="nav-second-level collapse" id="collapseSubItems4" data-parent="#navAccordion">
+    <li class="nav-item">
+    <a class="nav-link" href="#">
+    <span class="nav-link-text">College Login</span>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">
+    <span class="nav-link-text">Circulars</span>
+    </a>
+    </li>
+    </ul>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#"> Contact Us </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#"> About </a>
+    </li>
+    </ul>
+    <form class="form-inline ml-auto mt-2 mt-md-0">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn my-2 my-sm-0" type="submit">Search</button>
+    <div>
+    <i class="fas fa-user-circle fa-2x text-primary m-3"></i>
+    </div>
+    </form>
+    </div>
+    </nav>
+    <main class="content-wrapper">
+    <!--cards-->
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-4">
+    <div class="card h-100 text-white bg-secondary mb-3">
+    <div class="card-body">
+    <i class="fas fa-users fa-3x text-dark m-3"></i>
+    <h4 class="card-title"><u>STUDENTS</u></h4>
+    <p class="card-text">10,760 students across various colleges attempted the exam.</p>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card h-100 text-white bg-primary mb-3">
+    <div class="card-body">
+    <i class="fas fa-university fa-3x text-dark m-3"></i>
+    <h4 class="card-title"><u>COLLEGES</u></h4>
+    <p class="card-text">1034 colleges currently enrolled under SPPU.</p>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card h-100 text-white bg-secondary mb-3 card">
+    <div class="card-body">
+    <i class="fas fa-chart-line fa-3x text-dark m-3"></i>&nbsp;
+    <h4 class="card-title">96%</h4>
+    <p class="card-text">Rate of students actually passing the exam.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
